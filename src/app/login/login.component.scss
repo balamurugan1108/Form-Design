@@ -96,7 +96,6 @@ section {
     }
 }
 
-
 .container {
     width: 300px;
     background: rgba(255, 255, 255, 0.1);
@@ -104,22 +103,17 @@ section {
     border-radius: 10px;
     box-shadow: 0 25px 45px rgb(0 0 0 / 20%);
 }
-// .form-control:focus{
-//     color: #212529;
-//     background-color: #fff;
-//     border-color: #CECDC4;
-//     outline: unset !important;
-//     box-shadow: 0px 2px 6px 0px rgba(0 0 0 / 8%);
-//   }
 
 .form {
     position: relative;
     width: 100%;
     height: 100%;
-    .Logs{
+
+    .Logs {
         font-family: 'El Messiri', sans-serif;
         font-weight: 600;
-   }
+    }
+
     .inputBx {
         position: relative;
         width: 100%;
@@ -127,8 +121,6 @@ section {
 
         input {
             outline: none;
-            //   border: none;
-            //  border: 1px solid rgba(255, 255, 255, 0.2);
             outline: none;
             background: rgba(255, 255, 255, 0.2);
             padding: 8px 10px;
@@ -138,17 +130,6 @@ section {
             font-size: 16px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
         }
-
-        // .password-control {
-        //     position: absolute;
-        //     top: 11px;
-        //     right: 10px;
-        //     display: inline-block;
-        //     width: 20px;
-        //     height: 20px;
-        //     background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
-        //     transition: 0.5s;
-        // }
 
         .fas {
             position: absolute;
@@ -174,27 +155,6 @@ section {
         input::placeholder {
             color: #fff;
         }
-
-        .help-block {
-            color: #ff0000;
-        }
-
-        // span {
-        //     position: absolute;
-        //     left: 30px;
-        //     top: 0;
-        //     padding: 8px;
-        //     color: #fff;
-        //     transition: .5s;
-        // }
-
-        // input:focus~span,
-        // input:valid~span {
-        //     transform: translateX(-30px) translateY(-25px);
-        //     font-size: 16px;
-        //     // padding: inherit;
-        //     position: fixed;
-        // }
     }
 
     p {
@@ -213,6 +173,11 @@ section {
             -webkit-text-fill-color: transparent;
         }
     }
+}
+
+.form-control-feedback {
+    position: absolute;
+    top: 35px;
 }
 
 input.ng-invalid.ng-touched {

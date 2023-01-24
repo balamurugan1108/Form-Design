@@ -1,5 +1,5 @@
 <section>
-  <div class="container d-flex justify-content-center align-items-center position-relative">
+  <div class="container  position-relative">
     <div class="box position-relative">
       <div class="square" style="--i:0;"></div>
       <div class="square" style="--i:1;"></div>
@@ -15,7 +15,7 @@
         [mustMatch]="['password', 'confirm']" >
 
           <div class="row">
-            <div class="form-group col-6 col-lg-6 col-md-6 col-sm-12 ">
+            <div class="form-group col-12 col-lg-6 col-md-6 col-sm-6 ">
               <label class="text-white">First Name</label>
               <div class="inputBx">
                 <input class="form-control" type="text" name="firstName" #firstName="ngModel" 
@@ -32,7 +32,7 @@
               </div>
             </div>
 
-            <div class="form-group col-6 col-lg-6 col-md-6 col-sm-12 ">
+            <div class="form-group col-12 col-lg-6 col-md-6 col-sm-6 ">
               <label class="text-white">Last Name</label>
               <div class="inputBx">
                 <input class="form-control" type="text" name="lastName" #lastName="ngModel" [(ngModel)]="model.lastName"
@@ -52,7 +52,7 @@
           </div>
 
           <div class="row">
-            <div class="form-group col-6 col-lg-6 col-md-6 col-sm-12 ">
+            <div class="form-group col-12 col-lg-6 col-md-6 col-sm-6 ">
               <label class="text-white">Email Address</label>
               <div class="inputBx">
                 <input class="form-control" type="email" name="email" #email="ngModel" [(ngModel)]="model.email"
@@ -68,7 +68,7 @@
               </div>
             </div>
 
-            <div class="form-group col-6 col-lg-6 col-md-6 col-sm-12 ">
+            <div class="form-group col-12 col-lg-6 col-md-6 col-sm-6 ">
               <label class="text-white">Phone Number</label>
               <div class="inputBx">
                 <input class="form-control" type="number" name="mobile" #mobile="ngModel" [(ngModel)]="model.mobile"
@@ -88,7 +88,7 @@
           </div>
 
           <div class="row">
-            <div class="form-group col-6 col-lg-6 col-md-6 col-sm-12 ">
+            <div class="form-group col-12 col-lg-6 col-md-6 col-sm-6 ">
               <label class="text-white">Password</label>
               <div class="inputBx password">
                 <input type="password" name="password" class="form-control" name="password" #password="ngModel"
@@ -105,7 +105,7 @@
               </div>
             </div>
 
-            <div class="form-group col-6 col-lg-6 col-md-6 col-sm-12 ">
+            <div class="form-group col-12 col-lg-6 col-md-6 col-sm-6 ">
               <label class="text-white">Confirm Password</label>
               <div class="inputBx password">
                 <input type="password" name="confirm" class="form-control" name="confirm" #confirm="ngModel"

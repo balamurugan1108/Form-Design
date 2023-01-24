@@ -17,6 +17,7 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    height: 100vh;
     background: linear-gradient(-45deg, #ee7752, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
@@ -221,15 +222,22 @@ section {
 input.ng-invalid.ng-touched {
     border: 1px solid #ff0000;
 }
-
-@media only screen and (min-width: 280px) and (max-width: 500px) {
+@media only screen and (min-width: 577px) and (max-width: 767px){
     .square {
         display: none;
     }
-
-    .container {
+    .container{
+        width: 100%;
+    }
+    
+}
+@media only screen and (min-width: 280px) and (max-width: 576px) {
+    .square {
         display: none;
-        width: 82%;
+    }
+    .container {
+        // display: none;
+        width: 100%;
         background: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(5px);
         border-radius: 10px;

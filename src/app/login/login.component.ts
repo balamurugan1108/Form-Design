@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 export class LoginComponent {
   // required: any;
   // pattern: any;
-
   model = {
     email: '',
     password: '',
@@ -20,4 +19,7 @@ export class LoginComponent {
       console.log(form.value);
     }
   }
+  
+
+ 
 }
